@@ -1,4 +1,4 @@
-package com.ksainthilaire.newsapi
+package com.ksainthilaire.data
 
 import org.junit.Test
 
