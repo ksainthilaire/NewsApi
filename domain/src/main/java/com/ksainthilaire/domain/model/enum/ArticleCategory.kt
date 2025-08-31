@@ -1,4 +1,4 @@
-package com.ksainthilaire.domain.model
+package com.ksainthilaire.domain.model.enum
 
 /**
  * Represents the different possible categories of articles.

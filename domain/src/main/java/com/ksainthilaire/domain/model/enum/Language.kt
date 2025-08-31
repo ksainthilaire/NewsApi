@@ -1,10 +1,10 @@
-package com.ksainthilaire.domain.model
+package com.ksainthilaire.domain.model.enum
 
 /**
  * Enumeration of supported languages for article sources.
  * @property code The ISO 639-1 code of the language
  */
-enum class ArticleCountry(val code: String) {
+enum class Language(val code: String) {
     AR("ar"),
     DE("de"),
     EN("en"),

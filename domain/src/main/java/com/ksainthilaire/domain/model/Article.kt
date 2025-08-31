@@ -1,7 +1,9 @@
 package com.ksainthilaire.domain.model
 
 /**
- * @property source        Source of the article.
+ * Represents a news article.
+ *
+ * @property sourceId      Source id of the article.
  * @property author        Author of the article.
  * @property title         Title of the article.
  * @property description   Description of the article.
@@ -13,12 +15,13 @@ package com.ksainthilaire.domain.model
  * @see [ArticleSource]
  */
 data class Article(
-    val source: ArticleSource?,
-    val author: String?,
-    val title: String?,
-    val description: String?,
-    val url: String?,
-    val urlToImage: String?,
-    val publishedAt: String?,
-    val content: String?,
+    val id: Int,
+    val sourceId: String? = null,
+    val author: String? = null,
+    val title:  String? = null,
+    val description:  String? = null,
+    val url:  String? = null,
+    val urlToImage: String? = null,
+    val publishedAt:  String? = null,
+    val content:  String? = null,
 )
