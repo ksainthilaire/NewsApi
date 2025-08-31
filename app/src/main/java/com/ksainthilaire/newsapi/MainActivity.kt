@@ -67,7 +67,6 @@ private fun NewsNavHost(
             DisposableEffect(lifecycleOwner) {
                 val obs = LifecycleEventObserver { _, event ->
                     if (event == Lifecycle.Event.ON_RESUME) {
-                        println("hmv on resume")
                         homeViewModel.loadArticles()
                     }
                 }
