@@ -1,6 +1,5 @@
-package com.ksainthilaire.newsapi.ui.theme
+package com.ksainthilaire.newsapi.presentation.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

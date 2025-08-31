@@ -1,4 +1,4 @@
-package com.ksainthilaire.newsapi.ui.theme
+package com.ksainthilaire.newsapi.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 
