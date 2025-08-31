@@ -61,7 +61,7 @@ This draft is separate from the next versions that I will develop.
     - **presentation/feature**: The different UI features of the app.
       - **feature/home**: Displays the list of news articles with the title, the source and an image.
       - **feature/article**: Displays the detail of a news article with the title, the content, the source, the author and an image.
-      - **feature/saved**: Displays the list of saved articles with the title, the source and an image.
+      - **feature/savedarticles**: Displays the list of saved articles with the title, the source and an image.
 
 - **domain**  
   Contains the core business logic of the application.
@@ -114,6 +114,9 @@ NEWS_API_KEY=ac4a2b10c51e4b27bd0746a3763fde34
 - Have a separate module for each feature, and separate dependency injection by module
 
 ---
+
+### Small, useless example of correction with PR
+- [app/MainActivity: remove useless print](https://github.com/ksainthilaire/NewsApi/pull/1)
 
 ## Thanks
 
